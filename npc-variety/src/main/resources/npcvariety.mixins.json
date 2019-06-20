@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.crabman.npcvariety.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "StructureMixin",
+    "AbstractTraderMixin",
+    "WanderingTraderMixin", "VillagerMixin",
+    "illagers.IllagerMixin", "illagers.EvokerMixin", "illagers.PillagerMixin", "illagers.VindicatorMixin", "illagers.RavagerMixin",
+    "ZombieMixin", "ZombieVillagerMixin"
+  ],
+  "client": [
+    "render.WanderingTraderRendererMixin", "render.VillagerRendererMixin",
+    "render.EvokerRendererMixin","render.PillagerRendererMixin", "render.VindicatorRendererMixin", "render.RavagerRendererMixin",
+    "render.ZombieVillagerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

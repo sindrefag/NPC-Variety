@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "npcvariety",
+  "version": "${version}",
+
+  "name": "NPC Variety",
+  "description": "Gives new visual variations to testificate mobs",
+  "authors": [
+    "Mr Crabman"
+  ],
+
+  "icon": "assets/npcvariety/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "npcvariety.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
